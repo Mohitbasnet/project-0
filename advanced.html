@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">Google Search</a>
+        <a href="image.html">Image Search</a>
+        <a href="advanced.html">Advanced Search</a>
+    </div>
+    <div class="search-container">
+        <form action="https://www.google.com/search" method="get">
+            <div class="advanced-options">
+                <input type="text" name="as_q" placeholder="all these words" />
+                <input type="text" name="as_epq" placeholder="this exact word or phrase" />
+                <input type="text" name="as_oq" placeholder="any of these words" />
+                <input type="text" name="as_eq" placeholder="none of these words" />
+            </div>
+            <input type="submit" value="Advanced Search" class="advanced-button" />
+        </form>
+    </div>
+</body>
+</html>
